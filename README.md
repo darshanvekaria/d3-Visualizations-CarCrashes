@@ -1,6 +1,6 @@
 Necessary Link:
 
-- website (deployed here) : https://asmi06.github.io/
+- website (deployed here) : https://asmitahanchate.github.io/
 - repository : https://github.com/Asmi06/Asmi06.github.io
 - video link : https://drive.google.com/file/d/1xAdDbm39bvDMuZJTluOsuylnhXNZ_t8N/view?usp=sharing
 - external data link (if you want to run canvas submission locally) : https://drive.google.com/drive/folders/1W2rNVs1Jr5EkA6pHc1_FyBBiqUBvdRGJ?usp=sharing
