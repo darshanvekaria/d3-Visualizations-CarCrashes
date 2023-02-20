@@ -1,0 +1,291 @@
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border-radius: 8px;
+  /*  pointer-events: none;	This line needs to be removed */
+}
+
+.node rect {
+  fill-opacity: 0.9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.2;
+}
+
+.link:hover {
+  stroke-opacity: 0.5;
+}
+
+.table {
+  font-size: 0.7em;
+}
+
+.y-axis {
+  font-size: 15px;
+}
+
+.x-axis {
+  font-size: 15px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.info {
+  font-size: 1vw;
+  /* color: rgb(0, 111, 113); */
+  color: rgb(38, 74, 126);
+  font-weight: bold;
+}
+
+.info2 {
+  font-size: 0.9vw;
+  /* color: rgb(0, 111, 113); */
+  color: rgb(38, 74, 126);
+  font-weight: bold;
+}
+
+.info4 {
+  font-size: 1.1vw;
+  /* color: rgb(0, 111, 113); */
+  color: rgb(38, 74, 126);
+  font-weight: bold;
+}
+.info5 {
+  font-size: 1.1vw;
+  /* color: rgb(0, 111, 113); */
+  color: rgb(38, 74, 126);
+}
+
+.y-axis {
+  font-size: 12px;
+}
+
+.x-axis {
+  font-size: 15px;
+}
+
+.test {
+  background: red;
+}
+.title {
+  font-size: 12px;
+}
+
+.hor {
+  display: inline-block;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  height: auto;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 110px;
+}
+.prev {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 200px;
+}
+
+.header {
+  position: absolute;
+  top: 25%;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#mapDiv {
+  background-color: white;
+
+  /* font: 20px sans-serif; */
+  /* font-size: large; */
+  font-size: x-large;
+}
+
+.picture {
+  background-color: rgba(0, 0, 0, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+}
+
+.center-screen {
+  margin: auto;
+  margin-top: 250px;
+  width: 60%;
+  padding: 10px;
+}
+
+.center-screen-wide {
+  margin: auto;
+  margin-top: 250px;
+  width: 80%;
+  padding: 10px;
+}
+
+.text {
+  color: white;
+  opacity: 1;
+  text-align: center;
+  font-size: 24px;
+  font-family: serif;
+}
+
+.text-box {
+  border: thin solid white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel-inner > .item > {
+  min-height: 500px; /* Set slide height here */
+}
+
+.linetooltip {
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  height: 25px;
+  padding: 2px;
+  font: 6px sans-serif;
+  border-radius: 8px;
+}
+.linetooltip p {
+  font-size: 13px;
+}
+
+.picture {
+  /* background-color: rgba(105, 105, 105, 1); Tint color */
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+}
+
+.center-within {
+  margin: auto;
+}
+
+.center-screen {
+  margin: auto;
+  margin-top: 250px;
+  width: 60%;
+  padding: 10px;
+}
+
+.center-screen2 {
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  padding: 10px;
+}
+
+.center-screen3 {
+  margin: auto;
+  margin-top: 250px;
+  width: 60%;
+  padding-right: -30px;
+}
+
+.center-screen4 {
+  margin: auto;
+  margin-top: 150px;
+  width: 60%;
+  padding: 10px;
+}
+
+.text {
+  color: black;
+  opacity: 1;
+  text-align: center;
+  font-size: 24px;
+  font-family: serif;
+  text-align: left;
+}
+
+.text-box {
+  border: thin solid black;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.9);
+
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-box2 {
+  border: thin solid black;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.9);
+  margin-left: -10vh;
+
+  width: 120vh;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.parent {
+}
+.child {
+  display: inline-block;
+  color: steelblue;
+}
+
+.child3 {
+  color: steelblue;
+}
+
+.center-headline {
+  text-align: center;
+}
+
+.headlines {
+  font-size: 24px;
+}
+
+.small_intro {
+  font-size: 20px;
+}
+
+x-axis {
+  color: red;
+}
